@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-black font-poppins;
+    caret-color: transparent !important;
+  }
+  section {
+    @apply py-20 bg-white;
+  }
+  * {
+    caret-color: transparent !important;
+  }
+}
+
+@layer components {
+  .badge {
+    @apply text-sm uppercase text-white px-3 py-1 rounded-lg border  border-white/10 inline-flex bg-gradient-to-b  from-white/10 to-transparent;
+  }
+  .btn-primary {
+    @apply text-sm px-6 py-3 rounded-lg bg-black text-white;
+  }
+  .btn-dark {
+    @apply text-sm px-6 py-3 rounded-lg bg-white text-black border border-gray-300;
+  }
+  .card {
+    @apply flex flex-col p-3 border bg-[#0b061a]/90  border-white/10 rounded-2xl;
+  }
+}
+
+@layer utilities {
+  .section-title {
+    @apply max-w-2xl text-2xl md:text-3xl lg:text-5xl font-medium mt-4 !leading-snug;
+    color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+  }
+  .paragraph {
+    @apply leading-relaxed tracking-wide;
+    color: rgb(31 41 55 / 0.7);
+  }
+  .animate-pause {
+    animation-play-state: paused;
+  }
+}
+
+
+.animate-fade {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.6s ease;
+}
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
