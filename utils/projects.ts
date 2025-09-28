@@ -10,11 +10,27 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: 'vancouver',
+    title: 'UI/UX - Vancouver Impact',
+    subtext: 'Esports team website design.',
+    mainImage: 'vancouver.webp',
+    additionalImages: ['vancouver2.webp'],
+    category: ['Esports', 'UI/UX - Web'],
+  },
+  {
     slug: 'divernex',
     title: 'Esports - Divernex',
     subtext: 'Gaming team branding and social media content.',
     mainImage: 'divernex.webp',
     additionalImages: ['dvx1.webp', 'dvx2.webp', 'dvx3.webp'],
+    category: ['Esports', 'Socials'],
+  },
+  {
+    slug: 'ember',
+    title: 'Socials - Ember',
+    subtext: 'Esports team banner design.',
+    mainImage: 'ember.webp',
+    additionalImages: ['ember2.webp'],
     category: ['Esports', 'Socials'],
   },
   {
