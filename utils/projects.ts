@@ -57,6 +57,7 @@ export const projects: Project[] = [
     additionalImages: ['other1.webp'],
     category: ['Esports', 'Socials'],
   },
+  /*
   {
     slug: 'socials',
     title: 'Socials - Social media posts',
@@ -136,7 +137,7 @@ export const projects: Project[] = [
     mainImage: 'minecraft.webp',
     additionalImages: [],
     category: ['UI/UX - Web'],
-    link: 'https://powacraft.eu',
+    link: 'https://powacraft.eu ',
   },
   {
     slug: 'voxel-website',
@@ -145,7 +146,7 @@ export const projects: Project[] = [
     mainImage: 'voxel.webp',
     additionalImages: [],
     category: ['UI/UX - Web'],
-    link: 'https://ruined.pages.dev',
+    link: 'https://ruined.pages.dev ',
   },
   {
     slug: 'book-covers',
@@ -163,6 +164,5 @@ export const projects: Project[] = [
     additionalImages: [],
     category: ['Press'],
   },
-
-  
-]; 
+  */
+];
